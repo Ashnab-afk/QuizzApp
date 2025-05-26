@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="461dp"
+            android:layout_height="846dp"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/background"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,VisualLintBounds" />
+
+        <TextView
+            android:id="@+id/tvMainMenuTitle"
+            android:layout_width="326dp"
+            android:layout_height="50dp"
+            android:fontFamily="monospace"
+            android:text="Welcome to QuizzApp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="81dp" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="336dp"
+            android:layout_height="72dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Please enter a username "
+            android:inputType="text"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <Button
+            android:id="@+id/btnStartQuiz"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:fontFamily="monospace"
+            android:text="Start Quiz"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="640dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
