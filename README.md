@@ -23,7 +23,8 @@ This app is currently **under development**. Stay tuned for updates and new feat
 |-------------|-------------|---------------|
 | ![Home](screenshots/home.png) | ![Quiz](screenshots/quiz.png) | ![Result](screenshots/result.png) |
 
-> *Note: Replace the above image paths with actual screenshots once available.*
+# Link for youtube video: https://youtu.be/t7VzdsSWGHA
+
 
 ## 🚀 Getting Started
 
@@ -32,3 +33,5 @@ To run this project locally:
 1. Clone the repository  
    ```bash
    git clone https://github.com/YOUR_GITHUB_HANDLE/quizzapp.git
+
+   
